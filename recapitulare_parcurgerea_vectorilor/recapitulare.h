@@ -26,16 +26,13 @@ int nrPrim(int n) {
 	return true;
 }
 
-void elemPrime(int v[], int dim) {
+bool elemPrime(int v[], int dim) {
 
 	for (int i = 0; i < dim; i++) {
-
 		if (nrPrim(v[i])) {
-			cout << " Nu exista numere prime in sir " << endl;
+			//test
 		}
-		else {
-			cout << " Nu exista numere prime in sir " << endl;
-		}
+		
 	}
 
 }
