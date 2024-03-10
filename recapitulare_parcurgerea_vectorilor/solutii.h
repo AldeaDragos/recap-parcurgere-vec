@@ -35,3 +35,15 @@ void sol3() {
 		cout << " DA " << endl;
 	}
 }
+
+void sol4() {
+
+	int date[200] = { 4,4,5,4,4,4 };
+	if (verifEgale(date, 6) == 1) {
+		cout << " DA " << endl;
+	}
+	else {
+		cout << " NU " << endl;
+	}
+
+}

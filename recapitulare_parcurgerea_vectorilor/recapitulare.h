@@ -48,3 +48,14 @@ int verifPare(int v[], int dim) {
 	}
 	return false;
 }
+
+int verifEgale(int v[], int dim) {
+
+	for (int i = 0; i < dim; i++) {
+
+		if (v[i] != v[0]) {
+			return false;
+		}
+	}
+	return true;
+}
