@@ -26,13 +26,25 @@ int nrPrim(int n) {
 	return true;
 }
 
-bool elemPrime(int v[], int dim) {
+int elemPrime(int v[], int dim) {
 
 	for (int i = 0; i < dim; i++) {
 		if (nrPrim(v[i])) {
-			//test
+			return true;
 		}
 		
 	}
+	return false;
+}
 
+int verifPare(int v[], int dim) {
+
+
+	for (int i = 0; i < dim; i++) {
+
+		if (v[i] % 2 != 0) {
+			return true;
+		}
+	}
+	return false;
 }

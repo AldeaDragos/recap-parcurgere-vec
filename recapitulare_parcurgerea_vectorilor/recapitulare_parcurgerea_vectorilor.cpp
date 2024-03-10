@@ -4,5 +4,5 @@ int main()
 {
     
 
-    sol2();
+    sol3();
 }
